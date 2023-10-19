@@ -1,0 +1,41 @@
+/* styles for the Accordion component */
+
+.accordion-header {
+    cursor: pointer;
+    padding: 10px;
+    border: 1px solid #ccc;
+    background-color: gray !important;
+    font-weight: bold;
+    background: linear-gradient(to bottom, rgba(255, 0, 0, 1) 0%, rgba(255, 0, 0, 0.05) 100%);
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    height: 20px;
+  }
+  .accordion-header p{
+    margin: 0px;
+  }
+
+  .accordion-header.active {
+    background: linear-gradient(to bottom, rgba(255, 0, 0, 1) 0%, rgba(255, 0, 0, 0.05) 100%);
+  }
+  
+  .accordion-content {
+    padding: 10px;
+    border-radius: 10px;
+    background: linear-gradient(to bottom, rgba(255, 0, 0, 1) 0%, rgba(255, 0, 0, 0.05) 100%);
+  }
+  
+  .lectureAccordion{
+    justify-content: flex-start;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 600px;
+    margin-bottom: 20px;
+  }
+  @media(max-width:500px) {
+    .lectureAccordion {
+        width: 320px;
+    }
+}

@@ -1,0 +1,25 @@
+.custom-input{
+    background-color: white;
+    color: black;
+    border: 2px solid red;
+    border-radius: 0.35rem;
+    padding: 0.8rem;
+    font-size: 0.8rem;
+    width: 70vw;
+    font-weight: 500;
+    margin: 0.5rem;
+}
+.custom-input:focus{
+    outline: none;
+    border-color: black;
+}
+.custom-input::placeholder{
+    color: red;
+}
+.label-input{
+    color:Red;
+}
+.active-label{
+    color: red !important;
+    border-color: Red;
+}

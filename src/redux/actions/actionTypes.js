@@ -1,0 +1,4 @@
+export const SET_USER = 'SET_USER';
+export const CLEAR_USER = 'CLEAR_USER';
+export const SET_COURSES = 'SET_COURSES'
+export const SET_SHORTLISTED_STUDENTS = 'SET_SHORTLISTED_STUDENTS';
